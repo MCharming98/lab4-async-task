@@ -8,27 +8,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
     <Button
-        android:id="@+id/buttonCount"
+        android:id="@+id/buttonGoToCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="Count to 10" />
-
-    <TextView
-        android:id="@+id/textResult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="counting will appear here"
-        android:textSize="24sp" />
-
-    <Button
-        android:id="@+id/buttonCancel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="cancel" />
+        android:layout_marginTop="200dp"
+        android:text="go to count activity" />
 
 </LinearLayout>
