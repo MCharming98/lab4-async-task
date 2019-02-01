@@ -1,0 +1,13 @@
+1 - Why does Android provide AsyncTasks? Give an example where AsyncTask would be useful.
+    Allow background running while making the front-end responsive to user. Application with background calculations.
+
+2 - On what thread does onPostExecute run, and why?
+    UI thread.
+
+3 -  What method do you call to switch to a new application window in Android?
+     Which one do you use to switch back to the main activity?
+
+     startActivity(Intent i), where i = new Intent(currentActivity.this, nextActivity.this);
+
+4 - Give 2 reasons why is it useful to create an Adapter class for a third party API.
+    Easier to switch to another API without largely changing the code.
